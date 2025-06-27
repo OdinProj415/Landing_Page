@@ -1,0 +1,83 @@
+* {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+
+#Header,
+#Footer {
+    background-color: #1f2937;
+}
+
+#Text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+#Links {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+#Logo {
+    display: inline-flex;
+}
+
+#Menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Link {
+    display: flex;
+    justify-content: space-between;
+    font-size: small;
+   
+}
+
+#Subtext,
+.Link {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#Logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+button,
+#CallAct {
+    background-color: #3882f6;
+}
+
+#InfoHead {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900px;
+}
+
+#RandQuote {
+    background-color: #e5e7eb;
+}
+
+#Quote {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1f2937;
+}
+
+
+
+/* Non Specific */
+
+a {
+    text-decoration: none;
+}
