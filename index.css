@@ -20,25 +20,6 @@
 #Links {
     margin-top: 24px;
     margin-bottom: 24px;
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-}
-
-#Logo {
-    display: inline-flex;
-}
-
-#Menu {
-    display: flex;
-    justify-content: space-around;
-}
-
-.Link {
-    display: flex;
-    justify-content: space-between;
-    font-size: small;
-   
 }
 
 #Subtext,
@@ -53,8 +34,14 @@
 }
 
 button,
-#CallAct {
+#CallAct { 
     background-color: #3882f6;
+    border: none;
+}
+
+button {
+    border-radius: 15px;
+    color: #f9faf8;
 }
 
 #InfoHead {
@@ -74,10 +61,33 @@ button,
     color: #1f2937;
 }
 
-
-
 /* Non Specific */
 
 a {
     text-decoration: none;
+}
+
+/* Layout Specific */
+body {
+    margin: 0px;
+}
+
+#Parent {
+    margin: 0px;
+    width: 100%;
+}
+
+#topBlue {
+    background-color: #1f2937;
+    width: 100vw;
+}
+
+#Header {
+    width: 90vw;
+    margin: 0px auto;
+}
+
+#Menu {
+    display: flex;
+    justify-content: space-between;
 }
